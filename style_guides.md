@@ -66,7 +66,7 @@ When writing various statements like ```if | for | functions | etc```, curly bra
 usually be used. We made the decision to place curly brackets on a new line rather than an
 existing line. See examples below:
 
-```
+```C++
 bool my_function()
 {
 	while(condition)
