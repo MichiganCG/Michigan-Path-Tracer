@@ -6,3 +6,7 @@
 # target_sources(mpt PRIVATE
 #         Scene.cpp
 # )
+
+target_sources(mpt PRIVATE
+	texture.cpp
+)
