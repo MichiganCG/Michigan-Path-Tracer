@@ -6,3 +6,5 @@
 # target_sources(mpt PRIVATE
 #         Scene.cpp
 # )
+
+add_subdirectory(Scene)
