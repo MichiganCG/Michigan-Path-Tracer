@@ -39,15 +39,15 @@ namespace mpt
     };
     class FastMath
     {
-        public:
-            static Vec3f normalize(const Vec3f& vector)
-            {
-                return Vec3f{ 0.f, 0.f, 0.f };
-            }
-            static Vec3f cross(const Vec3f& vec1, const Vec3f& vec2)
-            {
-                return Vec3f{ 0.f, 0.f, 0.f };
-            }
+    public:
+        static Vec3f normalize(const Vec3f& vector)
+        {
+            return Vec3f{ 0.f, 0.f, 0.f };
+        }
+        static Vec3f cross(const Vec3f& vec1, const Vec3f& vec2)
+        {
+            return Vec3f{ 0.f, 0.f, 0.f };
+        }
     };
     using Color = Vec3f;
     struct Ray
@@ -59,11 +59,11 @@ namespace mpt
 
     class Object
     {
-        public:
-            virtual void setPosition(const Vec3f& position) = 0;
-            virtual void setRotation(const Vec3f& rotation) = 0;
-        protected:
-            Vec3f m_position;
-            Vec3f m_rotation;
+    public:
+        virtual void setPosition(const Vec3f& position) = 0;
+        virtual void setRotation(const Vec3f& rotation) = 0;
+    protected:
+        Vec3f m_position;
+        Vec3f m_rotation;
     };
 }
