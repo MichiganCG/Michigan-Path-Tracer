@@ -1,1 +1,3 @@
-# This folder and CMakeList.txt file will get populated once we add external libraries to the project!
+add_subdirectory(glm)
+
+target_link_libraries(mpt PRIVATE glm::glm)
